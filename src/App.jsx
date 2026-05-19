@@ -9,7 +9,7 @@ const produtos = [
     selo: "Mais vendida",
     imagem:
       "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=900&q=80",
-    link: "https://pay.kiwify.com.br/SEULINK1",
+    link: "https://pay.kiwify.com.br/YtQHGG6",
   },
 
   {
