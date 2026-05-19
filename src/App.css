@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff0f5;
+}
+
+.site {
+  background: linear-gradient(to bottom, #ffe4ec, #fff0f5);
+  color: #444;
+}
+
+.topo {
+  background: linear-gradient(90deg, #ff69b4, #ffb6c1);
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid #ff1493;
+}
+
+.topo h1 {
+  color: white;
+  font-size: 28px;
+}
+
+.topo nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  min-height: 430px;
+  background: linear-gradient(rgba(255, 192, 203, 0.6), rgba(255, 182, 193, 0.6)),
+    url("https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+}
+
+.hero div {
+  max-width: 650px;
+}
+
+.hero span {
+  background: white;
+  color: #ff1493;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 45px;
+  color: #ff1493;
+  margin: 25px 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.botao,
+.card button {
+  background: linear-gradient(90deg, #ff69b4, #ff1493);
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.produtos {
+  padding: 55px 8%;
+}
+
+.produtos h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #ff1493;
+  margin-bottom: 35px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: white;
+  border-radius: 25px;
+  padding: 18px;
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
+  border: 3px solid #ffd1dc;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.card h3 {
+  margin: 15px 0;
+  color: #444;
+}
+
+.card strong {
+  display: block;
+  color: #ff1493;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #ff1493;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
