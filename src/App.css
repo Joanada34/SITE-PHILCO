@@ -80,7 +80,6 @@ body {
 
 .botao,
 .botao-secundario,
-.card button,
 .botoes-categorias button {
   border: none;
   cursor: pointer;
@@ -89,8 +88,7 @@ body {
   text-decoration: none;
 }
 
-.botao,
-.card button {
+.botao {
   background: linear-gradient(90deg, #ff4fa3, #ff1493);
   color: white;
   padding: 14px 25px;
@@ -212,8 +210,21 @@ body {
   margin-bottom: 15px;
 }
 
-.card button {
+.comprar {
+  display: block;
   width: 100%;
+  text-align: center;
+  background: linear-gradient(90deg, #ff4fa3, #ff1493);
+  color: white;
+  padding: 14px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.comprar:hover {
+  transform: scale(1.03);
 }
 
 .banner {
