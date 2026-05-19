@@ -19,7 +19,7 @@ const produtos = [
     selo: "Oferta",
     imagem:
       "https://images.unsplash.com/photo-1601944177325-f8867652837f?auto=format&fit=crop&w=900&q=80",
-    link: "https://pay.kiwify.com.br/SEULINK2",
+   https://pay.kiwify.com.br/aUsaYXO
   },
 
   {
@@ -29,7 +29,7 @@ const produtos = [
     selo: "Premium",
     imagem:
       "https://images.unsplash.com/photo-1461151304267-38535e780c79?auto=format&fit=crop&w=900&q=80",
-    link: "https://pay.kiwify.com.br/SEULINK3",
+    https://pay.kiwify.com.br/0ANzk1v
   },
 
   {
